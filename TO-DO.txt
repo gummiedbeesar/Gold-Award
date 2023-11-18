@@ -16,4 +16,15 @@ NauGhty NAuGhty NauGhTy!!
     </script>
     <!--end of Navigation bar-->
 - Create nav.html
-
+######## OR WITH JUST JAVASCRIPT ########
+- MAKE nav.js file:
+    fetch('nav.html')
+    .then(res => res.text())
+    .then(text => {
+        let oldelem = document.querySelector("script#replace_with_navbar");
+        let newelem = document.createElement("div");
+        newelem.innerHTML = text;
+        oldelem.parentNode.replaceChild(newelem,oldelem);
+    })
+- Add to html:
+    <script id="replace_with_navbar" src="nav.js"></script>
