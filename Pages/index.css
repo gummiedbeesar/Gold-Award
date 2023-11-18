@@ -13,14 +13,18 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.section-header{
+.page-title{
     text-align: center;
+}
+.section-header{
+    font-weight: bold;
+
 }
 img{
     max-width: 100%;
     height: auto;
 }
-#getstartedtext{
+#getstartedtext,#howtotext{
     background-color: rgba(152, 149, 155, 0.5);
     border-radius: 5px;
 }
