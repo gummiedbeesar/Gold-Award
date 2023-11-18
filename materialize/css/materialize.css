@@ -692,11 +692,11 @@
 }
 
 .blue.darken-1 {
-  background-color: #1E88E5 !important;
+  background-color: #30bced !important;
 }
 
 .blue-text.text-darken-1 {
-  color: #1E88E5 !important;
+  color: #30bced !important;
 }
 
 .blue.darken-2 {
@@ -2084,11 +2084,11 @@
 }
 
 .grey.darken-1 {
-  background-color: #757575 !important;
+  background-color: #303036 !important;
 }
 
 .grey-text.text-darken-1 {
-  color: #757575 !important;
+  color: #303036 !important;
 }
 
 .grey.darken-2 {
@@ -3436,13 +3436,13 @@ table span.badge {
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%;
+    width: 95%;
   }
 }
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 85%;
   }
 }
 
