@@ -20,6 +20,12 @@ body{
     font-weight: bold;
 
 }
+#welcomeBox{
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
 img{
     max-width: 100%;
     height: auto;

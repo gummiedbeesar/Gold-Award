@@ -35,7 +35,7 @@ NauGhty NAuGhty NauGhTy!!
         - Get started button jumps to section with 3 columns each leading to "About" "Resources" or "Downloads"
     }
 	In Nav bar{
-		Change Downloads to Templates
+		✔️Change Downloads to Templates
 	}
 }
 
