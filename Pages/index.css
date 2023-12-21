@@ -45,6 +45,10 @@ img{
     font-size: 10px;
 }
 
+a.para:hover{
+    text-decoration: underline;
+}
+
 /* .gbbox{
     display: flex;
     align-items: center;
