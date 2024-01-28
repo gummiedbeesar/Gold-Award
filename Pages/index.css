@@ -11,9 +11,7 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.page-title{
-    text-align: center;
-}
+
 .section-header{
     font-weight: bold;
 }
@@ -29,10 +27,12 @@ img{
     height: auto;
 }
 .welcomeBox{
+    width:auto;
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+    
 }
 #getstartedtext,#howtotext{
     border-radius: 5px;
@@ -49,16 +49,26 @@ a.para:hover{
     text-decoration: underline;
 }
 .rlink{
+    display:inline-block;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
     border: none;
+    background-color: #0a2c25ff;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
 
 }
-.rlink:active{
+.rlink:hover{
     background-color: #63326eff;
+    color: #fffaff !important;
+    transition: 0.1s;
 
 }
-
+.descr{
+    
+}
 /* .gbbox{
     display: flex;
     align-items: center;
