@@ -28,7 +28,7 @@ img{
     max-width: 100%;
     height: auto;
 }
-#welcomeBox{
+.welcomeBox{
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -47,6 +47,16 @@ img{
 
 a.para:hover{
     text-decoration: underline;
+}
+.rlink{
+    width: 100%;
+    padding: 2rem;
+    border: none;
+
+}
+.rlink:active{
+    background-color: #63326eff;
+
 }
 
 /* .gbbox{

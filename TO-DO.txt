@@ -172,3 +172,7 @@ NauGhty NAuGhty NauGhTy!!
 </body>
     }
 }
+
+On Downloads page {
+  Each thing will have 2 buttons: One w/link to google form, another to download word doc
+}
