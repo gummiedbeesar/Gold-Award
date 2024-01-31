@@ -11,7 +11,35 @@
     <title>Document</title>
 </head>
 <body class="bgcol bgcol-text">
-    <script id="replace_with_navbar" src="nav.js"></script>
+    <div id="navBar">
+        <nav class="bgcol bgcol-text">
+            <div class="nav-wrapper">
+                <a href="index.html"  class="brand-logo bgcol-text"><i class="large material-icons">school</i> TCRT</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons bgcol-text">menu</i></a>
+                <ul class="right hide-on-med-and-down ">
+                  <li><a href="index.html" class="bgcol-text">Home</a></li>        
+                  <li><a href="resources.html" class="bgcol-text" >Resources</a></li>
+                  <li><a href="downloads.html" class="bgcol-text" >Templates</a></li>
+                  <li><a href="about.html" class="bgcol-text" >About</a></li>
+                </ul>
+            </div>
+          </nav>
+        
+          <ul class="sidenav hide-on-large-only bgcol-dark" id="mobile-demo">
+            <li><a href="index.html" class="bgcol-text">Home</a></li>        
+            <li><a href="resources.html" class="bgcol-text" >Resources</a></li>
+            <li><a href="downloads.html" class="bgcol-text" >Templates</a></li>
+            <li><a href="about.html" class="bgcol-text" >About</a></li>
+          </ul>
+         
+        
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var elems = document.querySelectorAll('.sidenav');
+              var instances = M.Sidenav.init(elems);
+            });
+          </script>
+    </div>
 
     <div class="container bgcol-dark">
         <div class="welcomeBox">
