@@ -38,11 +38,49 @@
                   var elems = document.querySelectorAll('.sidenav');
                   var instances = M.Sidenav.init(elems);
                 });
+                document.addEventListener('DOMContentLoaded', function() {
+                  var elem = document.querySelector('.collapsible.expandable');
+                  var instance = M.Collapsible.init(elem, {accordion: false});
+                });
+              
               </script>
         </div>
-        <h1> Templates </h1>
+        <div class="container bgcol-dark">
+          <div class="welcomeBox">
+              <h2 class="section-header">Templates</h2>
+          </div>
+        </div>
+      <div class="container">
+        <!-- First Row -->
+        <div class="row">
+          <div class="col s12 m7">
+            <a href="/Pages/Download-Files/College Applications in a Nutshell.docx" class="rlink bgcol-text" download="College Applications Yup"><i class="material-icons">file_download</i>Download</a>
+            <a href="https://docs.google.com/document/d/1Jv86UiAyXjRuP1bupEM_xcgfYqZTvxD7seqYy4yAx2k/edit?usp=sharing" class="rlink bgcol-text" target="_blank" rel="noopener noreferrer">Google Doc Version</a>
+            <ul class="collapsible expandable">
+              <li>
+                <div class="collapsible-header bgcol-dark"><i class="material-icons">expand_more</i>See Preview</div>
+                <div class="collapsible-body"><span>
+                  <embed src="/Pages/Download-Files/College Applications in a Nutshell.pdf" width="100%" height="auto" />
+                </span></div>
+              </li>
+            </ul>          
+          </div>
+          <div class="col s12 m5 descr">
+              <p>Appily is a very useful resource for finding colleges that fit a criteria that you set. From there you can use the colleges shown to build your list and research them further.</p>
+          </div>
+      </div>
+      <!-- End First Row -->
+      <!-- Second Row -->
+      <!--TODO PUT STUFF HERE -->
+      <!-- End Second Row -->
+
+        
+      </div>
+      
         
 
+
+      
         <!--JavaScript at end of body for optimized loading-->
         <script type="text/javascript" src="../materialize/js/materialize.js"></script>
         <!-- Footer -->

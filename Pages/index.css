@@ -58,10 +58,10 @@ a.para:hover{
     font-size: x-large;
     font-weight: bold;
     text-align: center;
-
 }
+
 .rlink:hover{
-    background-color: #63326eff;
+    background-color: #63326eff !important;
     color: #fffaff !important;
     transition: 0.1s;
 
@@ -69,6 +69,7 @@ a.para:hover{
 .descr{
     
 }
+
 /* .gbbox{
     display: flex;
     align-items: center;

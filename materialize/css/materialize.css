@@ -27,7 +27,7 @@
 .jadeaccent{
   background-color: #57a773ff !important;
 }
-
+/* END */
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -5869,9 +5869,9 @@ body.keyboard-focused .dropdown-content li:focus {
 }
 
 .collapsible {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
+  border-top: 0px solid #ddd;
+  border-right: 0px solid #ddd;
+  border-left: 0px solid #ddd;
   margin: 0.5rem 0 1rem 0;
 }
 
@@ -5885,7 +5885,11 @@ body.keyboard-focused .dropdown-content li:focus {
   line-height: 1.5;
   padding: 1rem;
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #f5d5caff;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
 }
 
 .collapsible-header:focus {
@@ -5898,6 +5902,7 @@ body.keyboard-focused .dropdown-content li:focus {
   display: inline-block;
   text-align: center;
   margin-right: 1rem;
+  margin-top: .5rem;
 }
 
 .keyboard-focused .collapsible-header:focus {
