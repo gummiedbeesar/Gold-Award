@@ -14,29 +14,23 @@ body{
 
 .section-header{
     font-weight: bold;
-}
-.para{
-    text-indent: 50px;
-}
-.prof{
-    margin-top: 1rem;
-    margin-bottom: 0rem;
-}
-img{
-    max-width: 100%;
-    height: auto;
-}
-.welcomeBox{
     width:auto;
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-align: center;
-    
 }
-#getstartedtext,#howtotext{
-    border-radius: 5px;
+.para{
+    text-indent: 50px;
 }
+a.para:hover{
+    text-decoration: underline;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 .abtme{
     margin-bottom: 0rem;
 }
@@ -45,9 +39,6 @@ img{
     font-size: 10px;
 }
 
-a.para:hover{
-    text-decoration: underline;
-}
 .rlink{
     display:inline-block;
     width: 100%;
@@ -66,23 +57,5 @@ a.para:hover{
     transition: 0.1s;
 
 }
-.descr{
-    
-}
 
 
-/* .gbbox{
-    display: flex;
-    align-items: center;
-}
-#gobutton{
-    border-radius: 30px;
-    margin-bottom: 10px;
-    margin-left: 25%;
-    width: 50%;
-
-}
-#getstarted{
-    margin-top: 2rem;
-}
-*/
